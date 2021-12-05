@@ -1,0 +1,74 @@
+.orbitron, .orbitron-no-glow {
+    font-family: "Orbitron";
+}
+
+.orbitron {
+    text-shadow: 0 0 8px #fff;
+}
+
+.team-layout{
+    max-width: 80rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1024px){
+    .team-layout{
+        padding-top: 18rem;
+        padding-bottom: 18rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 768px){
+    .team-layout{
+        padding-bottom: 13rem;
+        padding-top: 13rem;
+    }
+}
+
+@media (min-width: 640px){
+    .team-layout{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+.team-title{
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    letter-spacing: -0.025em;
+    font-weight: 800;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    padding-bottom: 6rem;
+}
+@media (min-width: 1024px){
+    .team-title{
+        font-size: 3.75rem;
+        line-height: 1;
+    }
+}
+
+@media (min-width: 640px){
+    .team-title{
+        font-size: 3rem;
+        line-height: 1;
+    }
+}
+
+.team-member-layout{
+
+}
+@media (min-width: 1024px){
+    .team-member-layout{
+        row-gap: 3rem;
+        column-gap: 2rem;
+        align-items: flex-start;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        display: grid;
+    }
+}

@@ -1,0 +1,22 @@
+.roadmap-mobile-text{
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    position: absolute;
+}
+
+@media (min-width: 768px){
+    .roadmap-mobile{
+        display: none;
+    }
+}
+.roadmap-desk{
+    display: none;
+}
+@media (min-width: 768px){
+    .roadmap-desk{
+        display: block;
+    }
+}

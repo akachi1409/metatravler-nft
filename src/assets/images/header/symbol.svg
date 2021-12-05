@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g style="fill:#fff" transform="matrix(1,0,0,1,-723.833,-572.982)">
+        <g id="nibiru_mark" transform="matrix(0.195312,0,0,0.189637,723.833,572.982)">
+            <rect x="0" y="0" width="1024" height="1054.65" style="fill:none;"/>
+            <g transform="matrix(1.95085,0,0,2.00924,-16916.9,-18312.6)">
+                <path d="M8696.4,9397.98L8919,9620.58L8919,9517.49C8859.47,9510.12 8813.28,9459.43 8812.99,9397.98L8696.4,9397.98ZM9171.61,9397.98L9055.01,9397.98C9054.72,9459.43 9008.54,9510.11 8949,9517.49L8949,9620.58L9171.61,9397.98ZM8847.95,9427.09C8844.74,9417.78 8842.99,9407.79 8842.99,9397.4C8842.99,9347.17 8883.77,9306.39 8934,9306.39C8984.23,9306.39 9025.01,9347.17 9025.01,9397.4C9025.01,9407.79 9023.27,9417.78 9020.05,9427.09C9000.8,9400.38 8969.42,9382.98 8934,9382.98C8898.59,9382.98 8867.21,9400.38 8847.95,9427.09ZM8759.18,9368.31L8698.39,9368.31L8934,9132.7L9169.62,9368.31L9108.82,9368.31L8934,9193.42L8759.18,9368.31Z"/>
+            </g>
+        </g>
+    </g>
+</svg>

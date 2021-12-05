@@ -1,0 +1,171 @@
+.faq-parallax{
+    background-image: linear-gradient(rgba(0,0,0,.527),rgba(0,0,0,.5)),url("../../assets/images/faq/bg.jpg");
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.css-faq-1 {
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-delay: 300ms;
+    animation-name: animation-580wcl;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+.css-faq-2 {
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-delay: 200ms;
+    animation-name: animation-580wcl;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+.css-100qw9n {
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-delay: 0ms;
+    animation-name: animation-580wcl;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+.controls-mixin, .mint-mixin {
+    --aug-l-extend1: 50%!important;
+    --aug-r-extend1: 50%!important;
+}
+
+.mint-mixin {
+    --aug-b-extend1: 30%!important;
+    --aug-t-extend1: 50%!important;
+}
+.card-mixin {
+    --aug-border-all: 1px!important;
+    --aug-border-bg: #fff!important;
+    --aug-inlay-all: 6px!important;
+    --aug-inlay-bg: linear-gradient(#312e81,#000)!important; 
+    --aug-inlay-opacity: 0.5!important;
+}
+
+.fag-title{
+    text-shadow: 0 0 8px #fff;
+    font-family: "Orbitron";
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    letter-spacing: -0.025em;
+    font-weight: 800;
+    padding-bottom: 6rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+@media (min-width: 1024px){
+    .fag-title{
+        font-size: 3.75rem;
+        line-height: 1;
+    }
+}
+@media (min-width: 640px){
+    .fag-title{
+        font-size: 3rem;
+        line-height: 1;
+    }
+}
+
+.faq-content-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 42rem;
+    padding-bottom: 5em;
+}
+.max-w-3xl {
+    max-width: 48rem;
+}
+
+.faq-content-layout{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    --tw-text-opacity: 1;
+    color: rgba(209, 213, 219, var(--tw-text-opacity));
+}
+
+.faq-content{
+    /* margin-top: 1.5rem;
+    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse)); */
+    
+    border-color: rgba(229, 231, 235, 1);
+}
+.faq-border{
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.faq-button{
+    --tw-text-opacity: 1;
+    color: rgba(209, 213, 219, var(--tw-text-opacity));
+    text-align: left;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+}
+
+.faq-question{
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    font-weight: 500;
+    font-size: large;
+}
+.faq-question-tag-box{
+    align-items: center;
+    height: 1.75rem;
+    display: flex;
+    margin-left: 1.5rem;
+}
+.faq-question-tag{
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    --tw-rotate: 0deg;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.faq-answer-box{
+    padding-right: 3rem;
+    margin-top: 0.5rem;
+}
+
+.faq-answer{
+    --tw-text-opacity: 1;
+    color: rgba(209, 213, 219, var(--tw-text-opacity));
+    font-size: 1rem;
+    line-height: 1.5rem;
+}

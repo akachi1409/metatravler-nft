@@ -1,0 +1,18 @@
+.css-1fx9x8r {
+    animation-duration: 1000ms;
+    animation-timing-function: ease;
+    animation-delay: 0ms;
+    animation-name: animation-9e64fq;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+}
+
+.discord-box-mixin {
+    --aug-border-all: 1px;
+    --aug-border-bg: #fff;
+    --aug-inlay-all: 6px;
+    --aug-inlay-bg: linear-gradient(#312e81,#000);
+    --aug-l-extend1: 30%;
+    --aug-r-extend1: 30%;
+}
