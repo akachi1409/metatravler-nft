@@ -1,6 +1,9 @@
 {
   "name": "frontend_base_dapp",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.2.0"
+  },
   "private": true,
   "homepage": "https://squid-games-nft.github.io/main/",
   "dependencies": {
