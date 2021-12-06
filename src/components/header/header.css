@@ -26,13 +26,17 @@
     font-family: "Orbitron";
 }
 .w-screen {
-    width: 100vw;
+    width: 100%;
 }
 
 .h-screen {
     height: 100vh;
 }
-
+@media (max-width: 640px){
+    .h-screen {
+        height: 0vh;
+    }
+}
 .custom-button {
     background: -webkit-linear-gradient(#a21caf,#4c1d95);
 }

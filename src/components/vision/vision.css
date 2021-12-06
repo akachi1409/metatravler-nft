@@ -146,6 +146,9 @@
 .mint-button{
     flex:6;
     align-items: center;
+
+    display: flex;
+    flex-direction: column;
 }
 .mint-button-img{
     flex:6;
@@ -166,7 +169,7 @@
 .ybutton {
     background-color: #c8ff00;
     color: black;
-    margin-left: 100px;
+    margin:auto;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 15px;

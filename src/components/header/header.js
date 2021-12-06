@@ -12,7 +12,7 @@ class Header extends React.Component{
             <div className="bg-indigo-900">
                 <div className="g-flex-justify-center" style={{transform: "scale(0.858906) translateZ(0px)"}}>
                     <div id = "home" className="g-relative w-screen h-screen arrow">
-                        <div className="header-mobile lg:hidden bg-pic">
+                        {/* <div className="header-mobile lg:hidden bg-pic">
                             <div className="g-flex-justify-centerr">
                                 <div className="css-sanqhm">
                                     <img src={mt} className="header-mobile-img " alt="Meta Travelers"/>
@@ -29,7 +29,7 @@ class Header extends React.Component{
                                     <button className="header-mobile-mint h-20 px-4 mt-10 cta-button orbitron">Mint NFTs</button>
                                 </a>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="header-desktop hidden g-overflow-hidden lg:block ">
                             <div className="header-desktop-layout" style={{transform: "translate(-50%, -50%)"}}>
                                 <div style={{opacity: "0.6", width: "100%", height: "100%"}}>
@@ -37,7 +37,6 @@ class Header extends React.Component{
                                 </div>
                             </div>
                             <div>
-                            {/* <button className="header-desktop-mint orbitron" style = {{boxShadow: "rgb(255, 255, 255) 0px 0px 0px"}}>Connect Wallet</button> */}
                             </div>
                         </div>
                     </div>

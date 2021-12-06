@@ -43,3 +43,26 @@
     font-size: large;
     line-height: 1.75rem;
 }
+
+.navbar-nav-a{
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    --tw-text-opacity: 1;
+    color: rgba(255, 255, 255, var(--tw-text-opacity));
+    padding: 0.75rem;
+    width: auto;
+    display: block;
+}
+
+.navbar-nav-a:hover{
+    background-color: purple;
+}
+
+.fix-margin{
+    margin-top: 4px
+}
