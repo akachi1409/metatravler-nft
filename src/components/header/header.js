@@ -33,7 +33,7 @@ class Header extends React.Component{
                         <div className="header-desktop hidden g-overflow-hidden lg:block ">
                             <div className="header-desktop-layout" style={{transform: "translate(-50%, -50%)"}}>
                                 <div style={{opacity: "0.6", width: "100%", height: "100%"}}>
-                                    <video className="pt-20" src ={video} preload="auto" autoplay="true" loop />
+                                    <video className="pt-20" style={{width:"100%"}} src ={video} preload="auto" autoplay="true" loop />
                                 </div>
                             </div>
                             <div>
