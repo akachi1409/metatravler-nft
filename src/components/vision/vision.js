@@ -243,7 +243,7 @@ function Vision(){
                         </div>
                         {
                         blockchain.account === "" || blockchain.smartContract === null ? 
-                        <div className="flex-column">
+                        <div className="mint-flex-column">
                             <button className='ybutton' 
                             onClick={(e) => {
                                 console.log("--------")
@@ -258,13 +258,14 @@ function Vision(){
                                 
                             ) : null}
                         </div>
-                        :
+                        :<div className="mint-flex-column">
                             <button className='ybutton'
                             onClick={(e) => {
                                 e.preventDefault();
                                 claimNFTs(1);
                                 getData();
                             }}>{claimingNft ? "BUSY" : "MINT"}</button>
+                            </div>
                         }
                     </div>
                 </div>

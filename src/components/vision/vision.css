@@ -165,7 +165,10 @@
     color: white;
     font-weight: 900;
 }
-
+.mint-flex-column{
+    display: flex;
+    flex-direction: column;
+}
 .ybutton {
     background-color: #c8ff00;
     color: black;

@@ -7,36 +7,40 @@ import symbol from "../../assets/images/header/symbol.svg"
 import logo from "../../assets/images/header/logo.svg"
 import ethLogo from "../../assets/images/header/ethLogo.svg";
 class Header extends React.Component{
+    constructor(props){
+        super(props);
+        this.state={
+            mute:"Mute"
+        }
+    }
+    onMute = () =>{
+        const {mute}= this.state; 
+        if (mute === "Mute")
+            this.setState({mute: "UnMute"})
+        else
+            this.setState({mute:"Mute"})
+    }
     render(){
         return(
             <div className="bg-indigo-900">
                 <div className="g-flex-justify-center" style={{transform: "scale(0.858906) translateZ(0px)"}}>
                     <div id = "home" className="g-relative w-screen h-screen arrow">
-                        {/* <div className="header-mobile lg:hidden bg-pic">
-                            <div className="g-flex-justify-centerr">
-                                <div className="css-sanqhm">
-                                    <img src={mt} className="header-mobile-img " alt="Meta Travelers"/>
-                                </div>
-                            </div>
-                            <div className="header-mobile-avatar orbitron">
-                            Embody Your Avatar
-                            </div>
-                            <div className="header-mobile-text orbitron">
-                            Explore The Metaverse
-                            </div>
-                            <div className="g-flex-justify-center">
-                                <a href="#mint">
-                                    <button className="header-mobile-mint h-20 px-4 mt-10 cta-button orbitron">Mint NFTs</button>
-                                </a>
-                            </div>
-                        </div> */}
                         <div className="header-desktop hidden g-overflow-hidden lg:block ">
                             <div className="header-desktop-layout" style={{transform: "translate(-50%, -50%)"}}>
-                                <div style={{opacity: "0.6", width: "100%", height: "100%"}}>
-                                    <video className="pt-20" style={{width:"100%"}} src ={video} preload="auto" autoplay="true" loop />
+                                <div className="g-flex-justify-center">
+                                <button className='ybutton' onClick={()=> this.onMute()} >{this.state.mute}</button>
                                 </div>
-                            </div>
-                            <div>
+                                <div style={{opacity: "0.6", width: "100%", height: "100%"}}>
+                                    {
+                                        this.state.mute === "Mute"&&
+                                        <video className="pt-20" style={{width:"100%"}} src ={video} preload="auto" autoplay="true" loop />
+                                    }
+                                     {
+                                        this.state.mute === "UnMute"&&
+                                        <video className="pt-20" style={{width:"100%"}} src ={video} preload="auto" autoplay="true" loop muted="true" />
+                                    }
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
